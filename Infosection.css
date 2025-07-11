@@ -1,0 +1,45 @@
+.info-section {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  background: rgba(40, 40, 40, 0.75); /* Softer dark transparency */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  gap: 12px;
+  align-items: center;
+  backdrop-filter: blur(6px); /* Adds a subtle blur effect */
+}
+
+.pic {
+  height: 300px;
+  width: 40%;
+  background-image: url("vaccination.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.info {
+  text-align: center;
+  width: 60%;
+  color: white;
+}
+
+.info h1 {
+  color: #ffd700; /* Gold for a warm contrast */
+  margin-bottom: 12px;
+}
+
+.info h3 {
+  color: #ffb347; /* Softer orange for warmth */
+  margin-top: 14px;
+}
+
+.info p {
+  color: #f0f0f0;
+  line-height: 1.8;
+  font-size: 15px;
+}
