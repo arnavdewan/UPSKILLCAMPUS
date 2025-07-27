@@ -5,7 +5,7 @@ It allows users to register, log in, manage child/adult vaccination appointments
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 ### 👤 User Authentication
 - Signup and login using mobile number and password
